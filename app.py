@@ -349,7 +349,7 @@ class EnrollmentAPI(Resource):
 
         return enrollment_details, 201
 
-####### Define API Routes #######
+
 
 
 api.add_resource(CourseAPI, '/api/course', '/api/course/<int:course_id>')
